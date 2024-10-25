@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 
 # Retrieve enviroment variables from .env file
-load_dotenv()
+#load_dotenv()
 
 SECRET_KEY: str = os.environ.get("SECRET_KEY", "secret_key")
 METADATA_MICROSERVICE_HOST: str = os.environ.get("METADATA_MICROSERVICE_HOST", "127.0.0.1")
